@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="./js/jQuery.js"></script>
+    <!-- Favicons -->
+    <link href="./images/favicon.svg" rel="icon">
+    <link href="./images/favicon.svg" rel="apple-touch-icon">
+    <!-- Vendor Bootstrap CSS Files -->
+    <link rel="stylesheet" href="./vendor/bootstrap5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./vendor/bootstrap5/icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./vendor/swiper/swiper-bundle.min.css">
+    <title>Зв'язок</title>
+</head>
+<body>
+
+<!-- ======= Header ======= -->
+<header id="header">
+    <div class="myNavbar" id="myNavbar">
+        <ul class="nav">
+            <li data-bs-toggle="tooltip" data-popper-placement="bottom" title="Головна"><a href="index.html" class="butt"><i class="bi-house-fill" aria-hidden="true"></i></a></li>
+            <li data-bs-toggle="tooltip" data-popper-placement="bottom" title="Більше"><a href="more.html" class="butt"><i class="bi bi-three-dots"></i></a></li>
+            <li data-bs-toggle="tooltip" data-popper-placement="bottom" title="Резюме"><a class="butt" href="resume.html" ><i class="bi bi-file-earmark-person-fill"></i></a></li>
+            <li data-bs-toggle="tooltip" data-popper-placement="bottom" title="Про мене"><a class="butt" href="about.html" ><i class="bi bi-person-circle"></i></a></li>
+            <li data-bs-toggle="tooltip" data-popper-placement="bottom" title="Зв'язок"><a class="butt active" href="contact.html"><i class="bi bi-inbox-fill"></i></a></li>
+        </ul>
+    </div>
+</header><!-- End Header -->
+
+<main id="main1">
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+        <div class="container" data-aos="fade-up">
+
+            <div class="section-title">
+                <h2>Зв'язок</h2>
+                <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+            </div>
+
+            <div>
+                <iframe style="border:0; width: 100%; height: 270px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2292.2386822455933!2d24.0257402780884!3d49.84338392082053!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473adde509e29fab%3A0x41b02db45cf174c7!2zNDnCsDUwJzM3LjUiTiAyNMKwMDEnMzIuNSJF!5e0!3m2!1suk!2sua!4v1651488502753!5m2!1suk!2sua" frameborder="0" allowfullscreen></iframe>
+            </div>
+
+            <div class="row mt-5">
+
+                <div class="col-lg-4">
+                    <div class="info">
+                        <div class="address">
+                            <i class="bi bi-geo-alt"></i>
+                            <h4>Адреса:</h4>
+                            <p>проспект Свободи, 45, Львів, Львівська область, 79000</p>
+                        </div>
+
+                        <div class="email">
+                            <i class="bi bi-envelope"></i>
+                            <h4>Пошта:</h4>
+                            <p>andrushko@gmail.com</p>
+                        </div>
+
+                        <div class="phone">
+                            <i class="bi bi-phone"></i>
+                            <h4>Моб. телефон:</h4>
+                            <p>+38 067 55488 55</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-lg-8 mt-5 mt-lg-0">
+
+                    <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                        <div class="row">
+                            <div class="col-md-6 form-group">
+                                <input type="text" name="name" class="form-control" id="name" placeholder="Ваше ім'я" required>
+                            </div>
+                            <div class="col-md-6 form-group mt-3 mt-md-0">
+                                <input type="email" class="form-control" name="email" id="email" placeholder="Ваша пошта" required>
+                            </div>
+                        </div>
+                        <div class="form-group mt-3">
+                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Заголовок" required>
+                        </div>
+                        <div class="form-group mt-3">
+                            <textarea class="form-control" name="message" rows="5" placeholder="Повідомлення" required></textarea>
+                        </div>
+                        <div class="my-3">
+                            <div class="loading">Завантаження</div>
+                            <div class="error-message"></div>
+                            <div class="sent-message">Ваше повідомлення було надіслано. Дякую!</div>
+                        </div>
+                        <div class="text-center"><button type="submit">Відправити</button></div>
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section><!-- End Contact Section -->
+
+</main><!-- End #main -->
+
+
+<!-- ======= Footer ======= -->
+<footer class="mt-auto py-3 bg-custom">
+    <div class="container text-center text-md-left justify-content-between">
+        <div class="copyright">
+            <a href="index.html" class="logo"><img src="./images/logo.png" alt="" class="img-fluid"></a>
+            2022 &copy; Власник <strong><span>Андрушко Олександр</span></strong>. Всі права захищені
+        </div>
+    </div>
+</footer><!-- End Footer -->
+
+<!-- Back to top button -->
+<button
+        type="button"
+        class="btn btn-danger btn-floating btn-lg"
+        id="btn-back-to-top"
+>
+    <i class="bi bi-arrow-up"></i>
+</button>
+
+</body>
+<!-- header scrolling & header active role scripts -->
+<script src="./js/header-scrolling.js"></script>
+<script src="./js/header-super.js"></script>
+<script src="./js/back-to-top1.js"></script>
+
+<!-- Vendors -->
+<script src="./vendor/swiper/swiper-bundle.min.js"></script>
+<script src="./js/purecounter.js"></script>
+<script src="./js/testimonials.js"></script>
+<!-- bootstrap.min.js -->
+<script src="./vendor/bootstrap5/js/bootstrap.min.js"></script>
+</html>

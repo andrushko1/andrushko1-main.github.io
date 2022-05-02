@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="./js/jQuery.js"></script>
+    <!-- Favicons -->
+    <link href="./images/favicon.svg" rel="icon">
+    <link href="./images/favicon.svg" rel="apple-touch-icon">
+    <!-- Vendor Bootstrap CSS Files -->
+    <link rel="stylesheet" href="./vendor/bootstrap5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./vendor/bootstrap5/icons/font/bootstrap-icons.css">
+    <title>Додатково</title>
+</head>
+<body>
+<!-- ======= Header ======= -->
+<header id="header">
+  <div class="myNavbar" id="myNavbar">
+    <ul class="nav">
+      <li data-bs-toggle="tooltip" data-popper-placement="bottom" title="Головна"><a href="index.html" class="butt"><i class="bi-house-fill" aria-hidden="true"></i></a></li>
+      <li data-bs-toggle="tooltip" data-popper-placement="bottom" title="Більше"><a href="more.html" class="butt active"><i class="bi bi-three-dots"></i></a></li>
+      <li data-bs-toggle="tooltip" data-popper-placement="bottom" title="Резюме"><a class="butt" href="resume.html" ><i class="bi bi-file-earmark-person-fill"></i></a></li>
+      <li data-bs-toggle="tooltip" data-popper-placement="bottom" title="Про мене"><a class="butt" href="about.html" ><i class="bi bi-person-circle"></i></a></li>
+      <li data-bs-toggle="tooltip" data-popper-placement="bottom" title="Зв'язок"><a class="butt" href="contact.html"><i class="bi bi-inbox-fill"></i></a></li>
+    </ul>
+  </div>
+</header><!-- End Header -->
+
+<!-- ======= Page Content ======= -->
+<div class="container-fluid main" style="padding-bottom: 72px;">
+  <div class="row">
+    <div class="col-12  p-0 p-md-0 mb-4 text-white rounded bg-white">
+      <!-- BLOG -->
+      <!-- >
+      <div class="p-4 p-md-5 mb-4 text-white rounded bg-dark">
+          <div class="col-md-6 px-0">
+              <h1 class="display-4 fst-italic">Title of a longer featured blog post</h1>
+              <p class="lead my-3">Multiple lines of text that form the lede, informing new readers quickly and efficiently about what’s most interesting in this post’s contents.</p>
+              <p class="lead mb-0"><a href="#" class="text-white fw-bold">Continue reading...</a></p>
+          </div>
+          <!-->
+
+      <!-- Carousel -->
+      <div id="carouselCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+
+          <!-- Images -->
+          <div class="carousel-item active">
+            <img src="./images/image1.jpg" class="d-block w-100 overlay-image" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Великий плямистий дятел</h5>
+              <a href="https://www.deviantart.com/pauladarwinkel/art/Great-spotted-woodpecker-912609940">@PaulaDarwinkel</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./images/image2.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Голуб звичайний</h5>
+              <a href="https://www.deviantart.com/pauladarwinkel/art/Stock-dove-91107985">@PaulaDarwinkel</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./images/image3.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Кропив'янка чорноголова</h5>
+              <a href="https://www.deviantart.com/pauladarwinkel/art/Blackcap-889391006">@PaulaDarwinkel</a>
+            </div>
+          </div>
+        </div>
+        <!-- /Images -->
+
+        <!-- BUTTONS -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+        <!-- /BUTTONS -->
+      </div>
+      <!-- /Carousel -->
+    </div>
+
+    <!-- TWO POSTS -->
+    <div class="row mb-2">
+      <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 text-primary">Rust програмування</strong>
+            <h3 class="mb-0">Анонс Rust 1.60.0</h3>
+            <div class="mb-1 text-muted">7 квітня</div>
+            <p class="card-text mb-auto">Команда Rust рада анонсувати нову версію Rust 1.60.0.</p>
+            <a href="https://blog.rust-lang.org/2022/04/07/Rust-1.60.0.html" class="stretched-link">Детальніше</a>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <img class="bd-placeholder-img" width="200" height="250" src="./images/Rust-Logo1.png" alt="...">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 text-success">Ігри</strong>
+            <h3 class="mb-0">VrChat</h3>
+            <div class="mb-1 text-muted">21 Квітня</div>
+            <p class="mb-auto">Динамічні аватари тепер доступні.</p>
+            <a href="https://hello.vrchat.com/blog/avatar-dynamics-live" class="stretched-link">Детальніше</a>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <img class="bd-placeholder-img" width="200" height="250" src="./images/VRChat-Logo1.png" alt="...">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /TWO POSTS -->
+
+
+
+    <div class="row g-5">
+      <div class="col-md-8">
+        <h3 class="pb-4 mb-4 fst-italic border-bottom">
+          Мова програмування Rust
+        </h3>
+
+        <article class="blog-post">
+          <h2 class="blog-post-title">Інформативний допис</h2>
+          <p class="blog-post-meta">2 Травня, 2022, власник <a href="#">Андрушко</a></p>
+
+          <p>Маленька розповідь про мову програмування Rust</p>
+          <hr>
+          <p>
+            Rust — це багатопарадигмальна мова програмування загального призначення, розроблена для продуктивності та безпеки, особливо для безпечного паралельного використання.[12][13] Він синтаксично схожий на C++,[14] але може гарантувати безпеку пам’яті, використовуючи перевірку запозичення для перевірки посилань.[15] Це забезпечує безпеку пам'яті без збирання сміття, а підрахунок посилань не є обов'язковим.[16][17] Це мова системного програмування[18] з механізмами низькорівневого керування пам’яттю[19], але також пропонує високорівневі функції, такі як функціональне програмування.
+          </p>
+          <p>
+            Вперше з’явившись у 2010 році, Rust був розроблений Грейдоном Хоаром з Mozilla Research[20] за участі Дейва Германа, Брендана Айха та інших.[21][22] Дизайнери вдосконалили мову під час написання експериментального механізму браузера Servo[23] і компілятора Rust. Основний вплив на Rust — C++, OCaml, Haskell та Erlang.[5] Rust все більше використовує та інвестує в індустрію, оскільки його запровадили такі компанії, як Amazon,[24][25] Discord,[26] Dropbox,[27] Facebook (Meta),[28] Google (Alphabet),[29] [30] і Microsoft.[31][32]
+          </p>
+          <p>
+            Rust визнається «найулюбленішою мовою програмування» в опитуванні розробників Stack Overflow щороку, починаючи з 2016 року, і використовувався 7% респондентів у 2021 році.[33]
+          </p>
+          <h2>Відео по Rust з різних областей</h2>
+
+          <div class="row">
+            <div class="col-auto pb-4 pt-4 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
+              <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/jkHqrkcEHRc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+            <div class="col-auto pb-4 pt-4 pt-lg-0 order-1 order-lg-2">
+              <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/L8tWKqSMKUI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+            <div class="col-auto pb-4 pt-4 pt-lg-0 order-1 order-lg-2">
+              <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/KJIJ_tgpwR4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+            <div class="col-auto pb-4 pt-4 pt-lg-0 order-1 order-lg-2">
+              <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/AH4V4M7R88k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+
+          <p>Додані відео по Rust</p>
+          <blockquote class="blockquote">
+            <p class="border-bottom">Огляд</p>
+          </blockquote>
+          <p>
+            За структурою мова Rust нагадує C++, але істотно відрізняється в деяких деталях реалізації синтаксису і семантики, а також орієнтацією на блокову організацію структури коду, яка дозволяє реалізувати завдання у вигляді легковагих співпрограм. Автоматичне керування пам'яттю позбавляє розробника необхідності маніпулювання вказівниками і захищає від проблем, що виникають через низькорівневу роботу з пам'яттю, таких як звернення до області пам'яті після її звільнення, розіменовування нульових вказівників, вихід за межі буфера тощо. Rust підтримує суміш імперативних процедурних і об'єктно-орієнтованих методів з такими парадигмами, як функційне програмування і модель акторів, а також узагальнене програмування і метапрограмування, в статичних і динамічних стилях.
+          </p>
+          <h3>Особливості</h3>
+          <p>Базові можливості мови:</p>
+          <p><b>Орієнтація на безпеку</b></p>
+          <ul>
+            <li>Акуратна робота з пам'яттю — ніяких нульових і втрачених вказівників. Автоматичне керування пам'яттю;</li>
+            <li>Контроль мінливості. Об'єкти незмінні (Immutable) за умовчанням;</li>
+            <li>Безпека динамічного виконання: обробка збоїв, винятки, ведення логу, RAII/dtors;</li>
+            <li>Typestate: можливість визначення складних інваріантів, що контролюють структури даних.</li>
+          </ul>
+          <p><b>Орієнтація на паралельність і ефективність коду</b></p>
+          <ul>
+            <li>Явний контроль пам'яті, контролювання схеми розподілу пам'яті;</li>
+            <li>Вкрай легкі завдання, що формуються у вигляді співпрограми. Легкість в породження тисяч і мільйонів підпроцесів;</li>
+            <li>Ітератори стека (фактично лямбда-блоки без розподілу купи);</li>
+            <li>Статична, нативна компіляція із створенням виконуваних файлів ELF, Portable Executable[en], Шаблон:Mach-O;</li>
+            <li>Прямий і простий інтерфейс для коду на мові Сі;</li>
+          </ul>
+          <p><b>Орієнтація на практичне застосування</b></p>
+          <ul>
+            <li>Мультипарадигмальний, функціональний, імперативно-процедурний, об'єктно-орієнтована, підтримка паралельної actor-моделі;</li>
+            <li>Функції вищого порядку із зв'язуванням (біндінгами);</li>
+            <li>Немає номінальних типів або ієрархії типів;</li>
+            <li>Мульти-платформовий, підтримується Windows, Linux, Mac OS X, *BSD;</li>
+            <li>Зберігання рядків у UTF8, різноманітність низькорівневих типів;</li>
+            <li>Працює з існуючими нативними наборами інструментів: GDB, Valgrind, Shark тощо;</li>
+            <li>Практична можливість порушення правил: можливість ігнорування правил безпеки, якщо чітко вказано, коли і як їх порушувати.</li>
+          </ul>
+        </article>
+      </div>
+
+      <div class="col-md-4">
+        <div class="position-sticky" style="top: 5rem;">
+          <div class="p-4 mb-3">
+            <h4 class="fst-italic">Інформація</h4>
+            <p class="mb-0">Невеличке поле, яке зафіксоване на екрані з відступом зверху.</p>
+            <!-- Weather -->
+            <a class="weatherwidget-io" href="https://forecast7.com/uk/49d8424d03/lviv/" data-label_1="LVIV" data-label_2="WEATHER" data-theme="original" >LVIV WEATHER</a>
+            <script>
+              !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+            </script>
+            <!-- /Weather -->
+
+
+            <div class="p-4">
+              <h4 class="fst-italic">Архіви сайту</h4>
+              <ol class="list-unstyled mb-0">
+                <li><a href="https://github.com/andrushko1/andrushko1.github.io">Травень</a></li>
+              </ol>
+            </div>
+
+            <div class="p-4">
+              <h4 class="fst-italic">Додатково</h4>
+              <ol class="list-unstyled">
+                <li><a href="#">GitHub</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Facebook</a></li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /BLOG -->
+  </div>
+</div><!-- End Page Content -->
+
+<!-- ======= Footer ======= -->
+<footer class="mt-auto py-3 bg-custom">
+  <div class="container text-center text-md-left justify-content-between">
+    <div class="copyright">
+      <a href="index.html" class="logo"><img src="./images/logo.png" alt="" class="img-fluid"></a>
+      2022 &copy; Власник <strong><span>Андрушко Олександр</span></strong>. Всі права захищені
+    </div>
+  </div>
+</footer><!-- End Footer -->
+
+<!-- Back to top button -->
+<button
+        type="button"
+        class="btn btn-danger btn-floating btn-lg"
+        id="btn-back-to-top"
+>
+  <i class="bi bi-arrow-up"></i>
+</button>
+
+</body>
+<!-- header scrolling & header active role scripts -->
+<script src="./js/header-scrolling.js"></script>
+<script src="./js/header-super.js"></script>
+<script src="./js/back-to-top1.js"></script>
+<!-- bootstrap.min.js -->
+<script src="./vendor/bootstrap5/js/bootstrap.min.js"></script>
+</html>
